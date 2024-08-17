@@ -27,6 +27,17 @@ import juice9 from './juice9.jpg';
 import juice10 from './juice10.jpg';
 import aboutImage from './aboutImage.png';
 import contactSvg from './contactSvg.svg';
+import juice1_whiteBg from './juice1_whiteBg.jpg';
+import juice2_whiteBg from './juice2_whiteBg.jpg';
+import juice5_whiteBg from './juice5_whiteBg.jpg';
+import juice6_whiteBg from './juice6_whiteBg.jpg';
+import juice7_whiteBg from './juice7_whiteBg.jpg';
+import juice8_whiteBg from './juice8_whiteBg.jpg';
+import juice9_whiteBg from './juice9_whiteBg.jpg';
+import juice10_whiteBg from './juice10_whiteBg.png';
+import juiceCarousel1 from './juiceCarousel1.jpg';
+
+
 
 export {
   about,
@@ -57,5 +68,14 @@ export {
   juice8,
   juice9,
   juice10,
-  contactSvg
+  contactSvg,
+  juice1_whiteBg,
+  juice2_whiteBg,
+  juice5_whiteBg,
+  juice6_whiteBg,
+  juice7_whiteBg,
+  juice8_whiteBg,
+  juice9_whiteBg,
+  juice10_whiteBg,
+  juiceCarousel1
 };
