@@ -1,9 +1,9 @@
 import About from "@/components/Home/About";
-import Contact from "@/components/Home/Contact";
 import Hero from "@/components/Home/Hero";
 import OurJuices from "@/components/Home/OurJuices";
-import Navbar from "@/components/Navbar/Navbar";
+import Navbar from "@/components/Navbar";
 import classes from "./page.module.css";
+import ContactForm from "@/components/Home/ContactForm";
 
 export default function Home() {
   return (
@@ -25,7 +25,7 @@ export default function Home() {
 
       <div className={classes.contact}>
         <div className="container mx-auto px-6 sm:px-16">
-          <Contact />
+          <ContactForm />
         </div>
       </div>
     </>

@@ -22,7 +22,7 @@ const Navbar = () => {
               className={`
           font-light
           cursor-pointer
-          text-base
+          text-sm
           list-none
           ${active === nav.id ? "text-white" : "text-black"}
           ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}
@@ -66,7 +66,7 @@ const Navbar = () => {
               className={`
           font-semibold
           cursor-pointer
-          text-base
+          text-sm
           ${active === nav.id ? "text-black" : "text-gray-500"}
           ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}
           `}

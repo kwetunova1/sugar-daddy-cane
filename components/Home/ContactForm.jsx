@@ -3,11 +3,11 @@ import { IoLocationSharp } from "react-icons/io5";
 import { FaPhoneVolume } from "react-icons/fa6";
 import { CiMail } from "react-icons/ci";
 
-export default function Contact() {
+export default function ContactForm() {
   return (
     <>
-      <div className="">
-        <h1 className="text-4xl text-white leading-[52px] font-bold">
+      <div className="mb-8">
+        <h1 className="text-4xl text-white leading-[52px] font-bold text-center">
           Contact Us
         </h1>
       </div>
@@ -70,7 +70,7 @@ export default function Contact() {
             </li>
           </ul>
 
-          <button className="text-xl transition ease-in duration-500 bg-[#ee3112] text-white py-2.5 px-0 max-w-[190px] font-medium w-full block mt-7.5 float-right rounded-full uppercase z-[9999] relative">Submit</button>
+          <button className="text-base transition ease-in duration-500 bg-[#ee3112] text-white py-2.5 px-0 max-w-[190px] font-medium w-full block mt-7.5 float-right rounded-full uppercase z-[9999] relative">Submit</button>
           </div>
         </form>
       </div>
