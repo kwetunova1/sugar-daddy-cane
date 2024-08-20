@@ -1,11 +1,7 @@
-"use client"
 import { juices } from "@/constants";
 import Image from "next/image";
-import Link from "next/link";
-import { FaExternalLinkAlt } from "react-icons/fa";
 
-export default function OurJuices() {
-
+export default function FullJuices() {
   return (
     <>
       <div className="flex justify-center items-center flex-col max-w-4xl text-center mx-auto mb-12">
@@ -22,7 +18,7 @@ export default function OurJuices() {
       <div className="">
         <div className="container mx-auto sm:px-16 px-6">
           <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14 md:gap-8 lg:gap-4">
-            {juices.slice(0, 3).map((juice) => (
+            {juices.map((juice) => (
               <div
                 key={juice.id}
                 className="flex flex-col items-center rounded-3xl"
@@ -52,14 +48,6 @@ export default function OurJuices() {
                 </button>
               </div>
             ))}
-          </div>
-          <div className="flex items-center justify-center">
-            <button className="flex gap-4 mt-8 text-base bg-[#758824] text-white py-3.5 px-8 rounded-full transition ease-in duration-500 z-[9999] font-light">
-            <Link href="/juices">
-                See More
-            </Link>
-            <FaExternalLinkAlt />
-            </button>
           </div>
         </div>
       </div>

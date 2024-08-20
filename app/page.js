@@ -20,7 +20,7 @@ export default function Home() {
         <About />
       </div>
       <div className={classes.juices}>
-        <div className="container mx-auto px-6 sm:px-16 mt-56">
+        <div className="container mx-auto px-6 sm:px-16 mt-20">
           <OurJuices />
           <Testimonials />
           <Benefits />

@@ -21,7 +21,7 @@ export default function Testimonials() {
         {testimonials.map((testimony) => (
           <div
             key={testimony.id}
-            className="relative flex flex-col items-center p-4 space-y-6 bg-gray-100 rounded-2xl"
+            className="relative flex flex-col items-center p-4 space-y-6 bg-gray-100 rounded-2xl transition-colors duration-300 ease-in-out hover:bg-[#DEB002]"
           >
             <Image
               src={testimony.img}
@@ -30,12 +30,12 @@ export default function Testimonials() {
             />
             <p className="text-center">{testimony.content}</p>
             <div className="flex flex-col gap-4 justify-center items-center">
-              <div className="flex">
-                <FaStar style={{ color: "#DEB002" }} />
-                <FaStar style={{ color: "#DEB002" }} />
-                <FaStar style={{ color: "#DEB002" }} />
-                <FaStar style={{ color: "#DEB002" }} />
-                <FaStar style={{ color: "#DEB002" }} />
+            <div className="flex">
+                <FaStar className="text-[#DEB002] group-hover:text-black" />
+                <FaStar className="text-[#DEB002] group-hover:text-black" />
+                <FaStar className="text-[#DEB002] group-hover:text-black" />
+                <FaStar className="text-[#DEB002] group-hover:text-black" />
+                <FaStar className="text-[#DEB002] group-hover:text-black" />
               </div>
               <div className="text-center">
                 <p className="font-bold">{testimony.name}</p>

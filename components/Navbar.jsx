@@ -1,12 +1,18 @@
 "use client";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { navLinks } from "@/constants";
+import { useRouter } from "next/router";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
+  const router = useRouter();
+
+  useEffect(() => {
+    setActive(router.pathname);
+  }, [router.pathname]);
 
   return (
     <>
@@ -24,10 +30,10 @@ const Navbar = () => {
           cursor-pointer
           text-sm
           list-none
-          ${active === nav.id ? "text-white" : "text-black"}
+          ${active === `/${nav.id}` ? "text-white" : "text-black"}
           ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}
           `}
-              onClick={() => setActive(nav.title)}
+              onClick={() => setActive(`/${nav.id}`)}
             >
               <Link
                 href={`/${nav.id}`}
@@ -67,10 +73,10 @@ const Navbar = () => {
           font-semibold
           cursor-pointer
           text-sm
-          ${active === nav.id ? "text-black" : "text-gray-500"}
+          ${active === `/${nav.id}` ? "text-white" : "text-black"}
           ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}
           `}
-              onClick={() => setActive(nav.title)}
+              onClick={() => setActive(`/${nav.id}`)}
             >
               <Link
                 href={`/${nav.id}`}
