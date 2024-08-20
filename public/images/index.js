@@ -36,6 +36,12 @@ import juice8_whiteBg from './juice8_whiteBg.jpg';
 import juice9_whiteBg from './juice9_whiteBg.jpg';
 import juice10_whiteBg from './juice10_whiteBg.png';
 import juiceCarousel1 from './juiceCarousel1.jpg';
+import waterSvg from './waterSvg.svg';
+import firstPerson from './firstPerson.png';
+import secondPerson from './secondPerson.png';
+import thirdPerson from './thirdPerson.png';
+import fourthPerson from './fourthPerson.png';
+
 
 
 
@@ -77,5 +83,10 @@ export {
   juice8_whiteBg,
   juice9_whiteBg,
   juice10_whiteBg,
-  juiceCarousel1
+  juiceCarousel1,
+  waterSvg,
+  firstPerson,
+  secondPerson,
+  thirdPerson,
+  fourthPerson
 };

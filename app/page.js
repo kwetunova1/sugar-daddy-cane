@@ -4,6 +4,8 @@ import OurJuices from "@/components/Home/OurJuices";
 import Navbar from "@/components/Navbar";
 import classes from "./page.module.css";
 import ContactForm from "@/components/Home/ContactForm";
+import Testimonials from "@/components/Home/Testimonials";
+import Benefits from "@/components/About/Benefits";
 
 export default function Home() {
   return (
@@ -20,6 +22,8 @@ export default function Home() {
       <div className={classes.juices}>
         <div className="container mx-auto px-6 sm:px-16 mt-56">
           <OurJuices />
+          <Testimonials />
+          <Benefits />
         </div>
       </div>
 

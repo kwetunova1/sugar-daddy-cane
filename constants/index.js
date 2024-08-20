@@ -1,16 +1,12 @@
 import {
   bannerImg,
   conTop,
-  juice1,
+  firstPerson,
+  fourthPerson,
   juice10_whiteBg,
   juice1_whiteBg,
-  juice2,
   juice2_whiteBg,
-  juice3,
-  juice4,
-  juice5,
   juice5_whiteBg,
-  juice6,
   juice6_whiteBg,
   juice7_whiteBg,
   juice8_whiteBg,
@@ -18,6 +14,8 @@ import {
   juiceCarousel1,
   our1,
   our3,
+  secondPerson,
+  thirdPerson,
 } from "@/public/images";
 
 import { MdOutlineEnergySavingsLeaf } from "react-icons/md";
@@ -141,4 +139,36 @@ export const benefits = [
 	  description: "Sugar cane juice is beneficial for the digestive system. It contains potassium, which helps balance the pH levels in the stomach, promoting better digestion. Additionally, it helps prevent stomach infections and keeps the digestive tract functioning smoothly",
 	  icon: <GiLifeSupport />,
 	},
+  ];
+
+  export const testimonials = [
+    {
+      id: "1",
+      content: "Absolutely refreshing! The best sugarcane juice I’ve ever tasted. Perfect for a hot day.",
+      img: firstPerson,
+      name: 'Sally Mwangi',
+      role: 'University Student'
+    },
+    {
+      id: "2",
+      content: "Incredible flavor and so natural. This sugarcane juice is my go-to drink. Can’t get enough of it!",
+      img: secondPerson,
+      name: 'John Doe',
+      role: 'Fitness Enthusiast'
+    },
+    {
+      id: "3",
+      content: "Unbelievably tasty! This sugarcane juice is a game-changer. Refreshing, natural, and simply delightful.",
+      img: thirdPerson,
+      name: 'John Otieno',
+      role: 'Entrepreneur'
+    },
+    {
+      id: "4",
+      content: "Delicious and revitalizing! The sugarcane juice is pure bliss. A must-try for everyone. Love it",
+      img: fourthPerson,
+      name: 'Lukas Kingi',
+      role: 'Artist'
+    },
+  
   ];

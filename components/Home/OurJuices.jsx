@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function OurJuices() {
   return (
     <>
-      <div className="flex justify-center items-center flex-col max-w-2xl mx-auto mb-12">
+      <div className="flex justify-center items-center flex-col max-w-4xl text-center mx-auto mb-12">
         <h2 className="text-4xl text-[#090807] leading-[52px] font-bold">
           Our Juices
         </h2>
@@ -38,7 +38,7 @@ export default function OurJuices() {
                   <h5 className="text-[#1C1C1C] text-lg md:text-xl font-semibold text-center">
                     {juice.title}
                   </h5>
-                  <p className="text-center">{juice.description}</p>
+                  <p className="text-center text-[#5a5959] text-base leading-8 font-light">{juice.description}</p>
                   <p className="text-center text-[#ffa30f] font-extrabold text-2xl">
                     Ksh {juice.price}
                   </p>

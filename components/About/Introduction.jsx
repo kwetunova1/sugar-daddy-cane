@@ -10,9 +10,9 @@ export default function Introduction() {
       </div>
 
       <div className="flex-1">
-        <h5 className="text-base text-[#440E62] font-semibold">About Us</h5>
+        <h5 className="text-xl text-[#440E62] font-semibold">About Us</h5>
         <h2 className="text-4xl text-[#DEB002] leading-[52px] font-bold">Who We are</h2>
-        <p>
+        <p className="text-[#5a5959] text-base leading-8 font-light">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa
           obcaecati corrupti corporis quidem dolorem doloribus facere quae
           dolores! Nulla quos id voluptatum at accusamus quo, eveniet distinctio

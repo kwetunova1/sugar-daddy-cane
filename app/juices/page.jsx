@@ -1,4 +1,5 @@
 import ContactForm from "@/components/Home/ContactForm";
+import OurJuices from "@/components/Home/OurJuices";
 import Navbar from "@/components/Navbar";
 
 
@@ -9,6 +10,10 @@ const Juices = () => {
         <div className="container mx-auto px-6 sm:px-16">
           <Navbar />
         </div>
+      </div>
+
+      <div className="container mx-auto px-6 sm:px-16 my-20">
+        <OurJuices />
       </div>
 
       <div className="bg-[#440E62] py-8">
