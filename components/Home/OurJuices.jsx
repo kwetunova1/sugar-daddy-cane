@@ -1,11 +1,10 @@
-"use client"
+"use client";
 import { juices } from "@/constants";
 import Image from "next/image";
 import Link from "next/link";
 import { FaExternalLinkAlt } from "react-icons/fa";
 
 export default function OurJuices() {
-
   return (
     <>
       <div className="flex justify-center items-center flex-col max-w-4xl text-center mx-auto mb-12">
@@ -30,19 +29,34 @@ export default function OurJuices() {
                 <Image
                   src={juice.img}
                   alt="juice"
+                  width={300}
+                  height={300}
+                  className="object-cover w-full h-full rounded-t-3xl"
                   style={{
-                    objectFit: "cover",
-                    borderTopLeftRadius: "24px",
-                    borderTopRightRadius: "24px",
                     boxShadow: "8px 0px 29px rgba(22, 22, 23, 0.17)",
                   }}
                 />
+
+                {/* <div className="w-72 h-72 relative">
+                  <Image
+                    src={juice.img}
+                    alt="juice"
+                    layout="fill"
+                    objectFit="cover"
+                    className="rounded-t-3xl"
+                    style={{
+                      boxShadow: "8px 0px 29px rgba(22, 22, 23, 0.17)",
+                    }}
+                  />
+                </div> */}
 
                 <div className="p-4 space-y-3">
                   <h5 className="text-[#1C1C1C] text-lg md:text-xl font-semibold text-center">
                     {juice.title}
                   </h5>
-                  <p className="text-center text-[#5a5959] text-base leading-8 font-light">{juice.description}</p>
+                  <p className="text-center text-[#5a5959] text-base leading-8 font-light">
+                    {juice.description}
+                  </p>
                   <p className="text-center text-[#ffa30f] font-extrabold text-2xl">
                     Ksh {juice.price}
                   </p>
@@ -55,10 +69,8 @@ export default function OurJuices() {
           </div>
           <div className="flex items-center justify-center">
             <button className="flex gap-4 mt-8 text-base bg-[#758824] text-white py-3.5 px-8 rounded-full transition ease-in duration-500 z-[9999] font-light">
-            <Link href="/juices">
-                See More
-            </Link>
-            <FaExternalLinkAlt />
+              <Link href="/juices">See More</Link>
+              <FaExternalLinkAlt />
             </button>
           </div>
         </div>

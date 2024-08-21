@@ -3,16 +3,19 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { navLinks } from "@/constants";
-import { useRouter } from "next/router";
+import { usePathname } from "next/navigation"; // Use usePathname to get the current path
 
 const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
-  const router = useRouter();
+  const pathname = usePathname(); // Get the current path
 
   useEffect(() => {
-    setActive(router.pathname);
-  }, [router.pathname]);
+    // Set the active state based on the current pathname
+    if (pathname) {
+      setActive(pathname);
+    }
+  }, [pathname]);
 
   return (
     <>
@@ -26,13 +29,13 @@ const Navbar = () => {
             <li
               key={nav.id}
               className={`
-          font-light
-          cursor-pointer
-          text-sm
-          list-none
-          ${active === `/${nav.id}` ? "text-white" : "text-black"}
-          ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}
-          `}
+                font-light
+                cursor-pointer
+                text-sm
+                list-none
+                ${active === `/${nav.id}` ? "text-white" : "text-black"}
+                ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}
+              `}
               onClick={() => setActive(`/${nav.id}`)}
             >
               <Link
@@ -70,12 +73,12 @@ const Navbar = () => {
             <li
               key={nav.id}
               className={`
-          font-semibold
-          cursor-pointer
-          text-sm
-          ${active === `/${nav.id}` ? "text-white" : "text-black"}
-          ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}
-          `}
+                font-semibold
+                cursor-pointer
+                text-sm
+                ${active === `/${nav.id}` ? "text-white" : "text-black"}
+                ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}
+              `}
               onClick={() => setActive(`/${nav.id}`)}
             >
               <Link

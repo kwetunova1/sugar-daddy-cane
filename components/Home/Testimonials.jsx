@@ -28,7 +28,7 @@ export default function Testimonials() {
               alt="testimony"
               className="absolute top-[-30%] w-[100px] h-[100px] rounded-full border border-b-2"
             />
-            <p className="text-center">{testimony.content}</p>
+            <p className="text-center font-light">{testimony.content}</p>
             <div className="flex flex-col gap-4 justify-center items-center">
             <div className="flex">
                 <FaStar className="text-[#DEB002] group-hover:text-black" />
