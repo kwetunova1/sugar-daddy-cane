@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function About() {
   return (
-    <div className="flex items-center gap-6 mt-20">
+    <div className="flex flex-col md:flex-row items-center gap-6 mt-20">
       <div className="flex-1">
         <Image
           src={aboutImage}
@@ -12,7 +12,7 @@ export default function About() {
         />
       </div>
 
-      <div className="flex-1 space-y-6">
+      <div className="flex-1 space-y-6 flex flex-col items-center md:items-start mb-6 md:mb-0">
         <h2 className="text-4xl text-[#090807] leading-[52px] font-bold">About Us</h2>
         <p className="text-[#5a5959] text-base leading-8 font-light">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati

@@ -4,12 +4,12 @@ import React from "react";
 
 export default function Introduction() {
   return (
-    <div className="flex my-20">
+    <div className="flex flex-col md:flex-row my-20">
       <div className="flex-1">
         <Image src={juiceCarousel1}/>
       </div>
 
-      <div className="flex-1">
+      <div className="flex-1 flex flex-col items-center md:items-start mt-6 md:mt-0">
         <h5 className="text-xl text-[#440E62] font-semibold">About Us</h5>
         <h2 className="text-4xl text-[#DEB002] leading-[52px] font-bold">Who We are</h2>
         <p className="text-[#5a5959] text-base leading-8 font-light">

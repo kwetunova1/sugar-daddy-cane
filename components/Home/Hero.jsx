@@ -10,8 +10,8 @@ import "../../app/globals.css";
 
 export default function Hero() {
   return (
-    <div className="flex justify-center mt-12">
-      <div className="w-1/2">
+    <div className="flex flex-col md:flex-row justify-center mt-12">
+      <div className=" w-full md:w-1/2 flex flex-col items-center md:items-start mb-6 md:mb-0">
         <h1 className="text-white text-6xl leading-[78px] font-bold tracking-wider">
           Sugar cane <br />
           juice <span className="text-[#55236d]">Vendor</span>
@@ -27,7 +27,7 @@ export default function Hero() {
         </button>
       </div>
 
-      <div className="w-1/2">
+      <div className="w-full md:w-1/2">
         <Swiper
           modules={[Navigation, Pagination, A11y, Autoplay]}
           spaceBetween={50}
