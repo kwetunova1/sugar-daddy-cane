@@ -1,4 +1,3 @@
-"use client";
 import { juices } from "@/constants";
 import Image from "next/image";
 import Link from "next/link";
@@ -36,19 +35,6 @@ export default function OurJuices() {
                     boxShadow: "8px 0px 29px rgba(22, 22, 23, 0.17)",
                   }}
                 />
-
-                {/* <div className="w-72 h-72 relative">
-                  <Image
-                    src={juice.img}
-                    alt="juice"
-                    layout="fill"
-                    objectFit="cover"
-                    className="rounded-t-3xl"
-                    style={{
-                      boxShadow: "8px 0px 29px rgba(22, 22, 23, 0.17)",
-                    }}
-                  />
-                </div> */}
 
                 <div className="p-4 space-y-3">
                   <h5 className="text-[#1C1C1C] text-lg md:text-xl font-semibold text-center">

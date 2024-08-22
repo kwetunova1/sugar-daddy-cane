@@ -1,10 +1,9 @@
 import ContactForm from "@/components/Home/ContactForm";
-import Navbar from "@/components/Navbar";
-
+import Navbar from "@/components/Navbar/Navbar";
 
 const Contact = () => {
-    return (
-      <>
+  return (
+    <>
       <div className="bg-[#DEB002]">
         <div className="container mx-auto px-6 sm:px-16">
           <Navbar />
@@ -16,9 +15,8 @@ const Contact = () => {
           <ContactForm />
         </div>
       </div>
-      </>
-    );
-  };
-  
-  export default Contact;
-  
+    </>
+  );
+};
+
+export default Contact;

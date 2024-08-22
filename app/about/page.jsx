@@ -1,7 +1,7 @@
 import Benefits from "@/components/About/Benefits";
 import Introduction from "@/components/About/Introduction";
 import ContactForm from "@/components/Home/ContactForm";
-import Navbar from "@/components/Navbar";
+import Navbar from "@/components/Navbar/Navbar";
 import classes from "./page.module.css";
 
 const About = () => {

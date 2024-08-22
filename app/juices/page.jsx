@@ -1,11 +1,10 @@
 import ContactForm from "@/components/Home/ContactForm";
 import FullJuices from "@/components/Juices/FullJuices";
-import Navbar from "@/components/Navbar";
-
+import Navbar from "@/components/Navbar/Navbar";
 
 const Juices = () => {
-    return (
-      <>
+  return (
+    <>
       <div className="bg-[#DEB002]">
         <div className="container mx-auto px-6 sm:px-16">
           <Navbar />
@@ -21,9 +20,8 @@ const Juices = () => {
           <ContactForm />
         </div>
       </div>
-      </>
-    );
-  };
-  
-  export default Juices;
-  
+    </>
+  );
+};
+
+export default Juices;
