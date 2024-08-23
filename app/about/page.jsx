@@ -13,7 +13,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className={classes.juices}>
+      <div className={`${classes.juices} min-h-full`}>
         <div className="container mx-auto px-6 sm:px-16">
           <Introduction />
           <Benefits />
