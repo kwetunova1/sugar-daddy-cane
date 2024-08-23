@@ -13,7 +13,7 @@ export default function ContactForm() {
       </div>
 
       <div className="flex justify-center items-center">
-        <form action="">
+        <form action="" className="w-full">
           <div className="">
             <input
               type="text"
@@ -21,7 +21,7 @@ export default function ContactForm() {
               className="px-2.5 py-0 mb-5 w-full h-[45px] bg-transparent text-white text-lg font-normal border-b border-white"
             />
           </div>
-          <div className="flex items-center gap-8">
+          <div className="flex flex-col md:flex-row md:items-center gap-4 md:gap-8">
             <div className="">
               <input
                 type="email"
@@ -35,7 +35,7 @@ export default function ContactForm() {
               />
             </div>
 
-            <div className="flex gap-4 text-white">
+            <div className="flex gap-4 text-white mb-6 md:mb-0">
               <p>Follow Me</p>
               <FaFacebook className="text-2xl cursor-pointer" />
               <FaInstagram className="text-2xl cursor-pointer" />
@@ -52,8 +52,8 @@ export default function ContactForm() {
             ></textarea>
           </div>
 
-          <div className="flex justify-between items-center text-white">
-          <ul className="flex gap-4">
+          <div className="flex justify-between flex-col md:flex-row items-center text-white">
+          <ul className="flex flex-col md:flex-row gap-4 mb-6 md:mb-0">
             <li className="flex items-center gap-2">
               <IoLocationSharp />
               <p>Juja Kiambu</p>
