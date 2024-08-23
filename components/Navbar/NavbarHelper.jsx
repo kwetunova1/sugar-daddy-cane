@@ -57,8 +57,9 @@ const ClientNavbar = () => {
         {/* Mobile menu */}
         <div
           className={`${
-            toggle ? "block" : "hidden"
-          } lg:hidden bg-blue-50 shadow-lg absolute sidebar top-16 right-0 left-0 z-20`}
+            toggle ? "flex" : "hidden"
+          } lg:hidden shadow-lg absolute sidebar bg-[#758824]
+          flex-col p-6 top-20 right-0 mx-4 min-w-[140px] rounded-xl z-30 gap-8`}
         >
           <ul className="px-2 pt-2 pb-3 space-y-1">
             {navLinks.map((nav, index) => (
