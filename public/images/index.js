@@ -41,6 +41,7 @@ import firstPerson from './firstPerson.png';
 import secondPerson from './secondPerson.png';
 import thirdPerson from './thirdPerson.png';
 import fourthPerson from './fourthPerson.png';
+import contact_us from './contact_us.png';
 
 
 
@@ -88,5 +89,6 @@ export {
   firstPerson,
   secondPerson,
   thirdPerson,
-  fourthPerson
+  fourthPerson,
+  contact_us
 };

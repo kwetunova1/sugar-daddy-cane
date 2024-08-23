@@ -6,7 +6,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { carouselImages } from "@/constants";
 import Image from "next/image";
-
+import '../../../app/globals.css';
 const HeroHelper = () => {
   return (
     <Swiper

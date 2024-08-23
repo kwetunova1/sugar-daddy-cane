@@ -53,7 +53,7 @@ export default function ContactForm() {
           </div>
 
           <div className="flex justify-between items-center text-white">
-          <ul className="flex gap-6">
+          <ul className="flex gap-4">
             <li className="flex items-center gap-2">
               <IoLocationSharp />
               <p>Juja Kiambu</p>
@@ -70,7 +70,7 @@ export default function ContactForm() {
             </li>
           </ul>
 
-          <button className="text-base transition ease-in duration-500 bg-[#ee3112] text-white py-2.5 px-0 max-w-[190px] font-medium w-full block mt-7.5 float-right rounded-full uppercase z-[9999] relative">Submit</button>
+          <button className="text-base transition ease-in duration-500 bg-[#ee3112] text-white py-2.5 px-6 font-medium block mt-7.5 float-right rounded-full uppercase z-[9999] relative">Submit</button>
           </div>
         </form>
       </div>
