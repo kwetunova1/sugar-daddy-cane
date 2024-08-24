@@ -22,7 +22,7 @@ import juice4 from './juice4.jpg';
 import juice5 from './juice5.jpg';
 import juice6 from './juice6.jpg';
 import juice7 from './juice7.jpg';
-import juice8 from './juice8.jpg';
+import juice8 from './juice8.png';
 import juice9 from './juice9.jpg';
 import juice10 from './juice10.jpg';
 import aboutImage from './aboutImage.png';

@@ -1,4 +1,5 @@
 import {
+  aboutImage,
   bannerImg,
   conTop,
   firstPerson,
@@ -9,6 +10,7 @@ import {
   juice5_whiteBg,
   juice6_whiteBg,
   juice7_whiteBg,
+  juice8,
   juice8_whiteBg,
   juice9_whiteBg,
   juiceCarousel1,
@@ -48,15 +50,11 @@ export const carouselImages = [
   },
   {
     id: 2,
-    img: conTop,
+    img: aboutImage,
   },
   {
     id: 3,
-    img: our3,
-  },
-  {
-    id: 4,
-    img: our1,
+    img: juice8,
   },
 ];
 
