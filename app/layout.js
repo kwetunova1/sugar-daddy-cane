@@ -1,10 +1,10 @@
 // import { Inter } from "next/font/google";
-import { Bangers } from '@next/font/google';
+import { Rubik } from '@next/font/google';
 import "./globals.css";
 
-const bangers = Bangers({
-  weight: ['400'],
+const usedFont = Rubik({
   subsets: ['latin'],
+  weight: ['400', '500', '700'],
 });
 // const inter = Inter({ subsets: ["latin"] });
 
@@ -16,7 +16,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={bangers.className}>
+      <body className={usedFont.className}>
         {children}
         </body>
     </html>

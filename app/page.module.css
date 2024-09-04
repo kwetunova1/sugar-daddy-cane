@@ -14,9 +14,9 @@
   left: 0;
   right: 0;
   /* bottom: -221px; */
-  bottom: -100px;
+  bottom: -250px;
   height: 762px;
-  background: url(/images/wave.png);
+  background: url(/images/wave.svg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
