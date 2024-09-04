@@ -14,11 +14,18 @@
   left: 0;
   right: 0;
   /* bottom: -221px; */
-  bottom: -250px;
+  /* bottom: -250px; */
+  bottom: -310px;
   height: 762px;
   background: url(/images/wave.svg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
+}
+
+@media (min-width: 300px) and (max-width: 600px) {
+  .banner_main::before {
+    bottom: -350px;
+  }
 }
 
 .juices {

@@ -7,7 +7,7 @@ export default function ContactForm() {
   return (
     <>
       <div className="mb-8">
-        <h1 className="text-4xl text-white leading-[52px] font-bold text-center">
+        <h1 className="text-3xl lg:text-4xl text-white lg:leading-[52px] font-bold text-center">
           Contact Us
         </h1>
       </div>

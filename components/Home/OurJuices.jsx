@@ -7,7 +7,7 @@ export default function OurJuices() {
   return (
     <>
       <div className="flex justify-center items-center flex-col max-w-4xl text-center mx-auto mb-12">
-        <h2 className="text-4xl text-[#090807] leading-[52px] font-bold">
+        <h2 className="text-3xl lg:text-4xl text-[#090807] lg:leading-[52px] mb-4 font-bold">
           Our Juices
         </h2>
         <p className="text-[#5a5959] text-base leading-8 font-light">
@@ -17,7 +17,6 @@ export default function OurJuices() {
         </p>
       </div>
 
-      <div className="">
         <div className="container mx-auto sm:px-16 px-6">
           <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14 md:gap-8 lg:gap-4">
             {juices.slice(0, 3).map((juice) => (
@@ -60,7 +59,6 @@ export default function OurJuices() {
             </button>
           </div>
         </div>
-      </div>
     </>
   );
 }

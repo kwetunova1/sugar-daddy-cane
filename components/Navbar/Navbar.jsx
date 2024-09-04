@@ -1,3 +1,4 @@
+import Link from "next/link";
 import ClientNavbar from "./NavbarHelper";
 
 const Navbar = () => {
@@ -6,7 +7,9 @@ const Navbar = () => {
     <>
       <div className="flex justify-between h-16 py-2">
         <div className="flex items-center">
-          <p className="text-2xl font-bold">SugarDaddyCane</p>
+          <p className="text-2xl font-bold">
+            <Link href="/">SugarDaddyCane</Link>
+          </p>
         </div>
 
         <ClientNavbar />

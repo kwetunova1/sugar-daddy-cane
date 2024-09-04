@@ -68,11 +68,12 @@ export const juices = [
   },
   {
     id: 2,
-    title: "Cane & Lime",
-    description: "Sugarcane juice with a squeeze of lime",
+    title: "Mint Medley",
+    description: "Sugarcane juice with fresh mint",
     price: 50,
-    img: juice2_whiteBg,
+    img: juice10_whiteBg,
   },
+  
   {
     id: 3,
     title: "Pineapple Punch",
@@ -110,11 +111,12 @@ export const juices = [
   },
   {
     id: 8,
-    title: "Mint Medley",
-    description: "Sugarcane juice with fresh mint",
+    title: "Cane & Lime",
+    description: "Sugarcane juice with a squeeze of lime",
     price: 50,
-    img: juice10_whiteBg,
+    img: juice2_whiteBg,
   },
+  
 ];
 
 export const benefits = [

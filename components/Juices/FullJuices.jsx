@@ -5,7 +5,7 @@ export default function FullJuices() {
   return (
     <>
       <div className="flex justify-center items-center flex-col max-w-4xl text-center mx-auto mb-12">
-        <h2 className="text-4xl text-[#090807] leading-[52px] font-bold">
+        <h2 className="text-3xl lg:text-4xl text-[#090807] lg:leading-[52px] font-bold">
           Our Juices
         </h2>
         <p className="text-[#5a5959] text-base leading-8 font-light">
